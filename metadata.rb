@@ -2,7 +2,7 @@ name              "monit_configs"
 maintainer        "Oriol Collell"
 maintainer_email  "ocollell@dineyo.com"
 description       "Monit configs for server components"
-version           "0.0.5"
+version           "0.0.6"
 
 recipe "monit_configs::memcached", "Monit config for memcached"
 recipe "monit_configs::mongo", "Monit config for mongodb"
